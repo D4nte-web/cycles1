@@ -44,8 +44,8 @@ public class Main {
             System.out.println("Месяц " + a + ", сумма накомплений равна " + savings + " рублей.");
         }
         System.out.println("Задача №10");
-        for (int f = 1; f < 20; f = f * 2){
-            System.out.println(f);
+        for (int f = 1; f < 11; f = f + 1){
+            System.out.println("2" + "*" + f + "=" + f * 2);
         }
     }
 }
